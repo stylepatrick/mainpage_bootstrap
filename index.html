@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Website</title>
+	<link rel="shortcut icon" type="image/x-icon" class="glyphicon glyphicon-home" href="./images/favicon.ico">
+    <!-- Einbinden des Bootstrap-Stylesheets -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- optional: Einbinden der jQuery-Bibliothek -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <!-- optional: Einbinden der Bootstrap-JavaScript-Plugins -->
+    <script src="./js/bootstrap.min.js"></script>
+	<!--script for jquery-->
+	<script> 
+	$(document).ready(function(){
+		//for the size of the title
+		var div=$("#title");  
+		div.animate({fontSize:'65'},"slow");
+		
+		//for the show of the subtitle
+		$("#subtitle").hide("slow").delay(1200).show("slow");	
+	});
+	</script> 
+</head>
+<body style="background-color: #f8f8f8;">
+
+    <div style="text-align:center; margin: 10%; margin-top: 10%;" class="row">
+        <div class="col-lg-12">
+            <p id="title" style="font-family: 'Comic Sans MS', sans-serif; font-size: 38;">Welcome to our Website</p>
+			<p id="subtitle" style="text-align:center; font-family: 'Comic Sans MS', sans-serif; font-size: 35; display: none;">we proudly present our Website</p>
+        </div>
+		
+		<!--Nav-->
+		<div id="links" style="margin-top: 2%; font-family: 'Comic Sans MS', sans-serif; font-size: 20px;" class="col-lg-12" >
+		<img src="./image1.png" width="95" height="100" alt="image1">
+			<a href="#" target="_blank"><span></span>Link1</a> | 
+			<a href="#"  target="_blank" ><span></span>Link2</a>
+			<img src="./image2.png" width="115" height="120" alt="image2">
+		</div>
+
+		
+		<!--Footer-->
+		<div class="col-lg-12">
+			<hr>
+			</div>
+			<div style="text-align:center;" class="col-lg-12">
+				<p id="copyrightfooter" style="font-family: 'Comic Sans MS', sans-serif; font-size: 12px;">Copyright 2019 </p>
+			</div>
+		</div>
+    </div>
+</body>
+</html>
