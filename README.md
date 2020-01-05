@@ -1,2 +1,2 @@
-# mainpage_bootstrap
- Example of a Main-Page with different link with Twitter Bootstrap
+# Main-Page
+ Example of a Main-Page with different links made with Twitter Bootstrap
